@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color:lightseagreen;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container{
+            position:relative;
+            width: 100%;
+            max-width: 1000px;
+            min-height: 1000px;
+            background: white;
+            margin:50px;
+            display:grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+        }
+        .container .left_side{
+            position:relative;
+            background:#003147;      
+            padding: 40px;
+            text-align: center;
+            padding-top: 15px;
+            
+        }
+        .profile{
+            position:relative;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            padding-bottom: 2px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        .profile .image{
+            position:relative;
+            width: 190px;
+            height: 190px;
+        }
+        .container .left_side .profile .image .center {
+            display:block;
+            margin-left: auto;
+            margin-right:auto;
+            width:90%;
+        }
+        .profile h2 {
+            color:whitesmoke;
+            font-size: 1.5em;
+            margin-top:20px;
+            text-transform: uppercase;
+            text-align:center;
+            font-weight:600;
+            line-height: 1.4em;
+        }
+        .profile h2 span {
+            font-size:0.8em;
+            font-weight: 300;
+        }
+        .contact {
+            padding-top: 10px;
+            display: inline-block;
+        }
+        .title {
+            color: whitesmoke;
+            text-transform:uppercase;
+           font-weight:600;
+           letter-spacing: 1px;
+           margin-bottom:20px;
+           text-align: center;
+        }
+        .contact ul {
+            position:relative;
+        }
+        .contact ul li {
+            position: relative;
+            list-style: none;
+            margin: 16px 0;
+            cursor: pointer;
+            text-align: left;
+        }
+        .contact ul li .icon {
+            display: inline-block;
+            width:20px;
+            font-size: 12px;
+            color:#03a9f4;
+        }
+        .contact ul li span {
+            color:whitesmoke;
+            font-weight: 300;
+           display: inline-block;
+          font-size:15px;
+        }
+        .contact.education li {
+            margin-bottom: 15px;
+        }
+        .contact.education h5 {
+            color:#03a9f4;
+            font-weight:600;
+        }
+        .contact.education h4 {
+            color:whitesmoke;
+            font-weight:500;
+        }
+        .container .right_side{
+            position:relative;
+            background:whitesmoke;
+            padding: 18px;
+        }
+        .about {
+         margin-bottom: 50px;
+        }
+        .about:last-child {
+            margin-bottom: 0;
+        }
+        .title2 {
+            color:#003147;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        p{
+            color:#333;
+        }
+        .skills .box{
+            position:relative;
+            width:100%;
+            grid-template-columns:150px 1fr;
+            justify-content: center;
+            align-items: center;
+        }
+        .skills .box h4 {
+            text-transform:uppercase;
+            color:#848c99;
+            font-weight:400;
+            margin-bottom: 3px;
+        }
+        .skills .box .percent {
+            position:relative;
+            width:70%;
+            height:5px;
+            background: #f0f0f0;
+            margin-left:12em;
+        }
+        .skills .box .percent div {
+            position: absolute;
+            top:0;
+            left:0;
+            height:100%;
+            background:#03a9f4;
+        }
+        .skills ul li {
+            position: relative;
+            margin: 16px 0;
+            
+        }
+        .interest ul li{
+            list-style: none;
+            display: inline-block;
+            width:40px;
+            margin-right:50px;
+            color:#333;
+        }
+        .interest ul li .fa{
+            color:#03a9f4;
+            font-size: 18px;
+        }
+    </style>
+    <!<link rel="stylesheet" type="text/css" href="cv.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+            <div class="profile">
+                <div class="image">
+                    <img src="mohit1.png" alt="Mohit Anand" width="200" height="180"  class="center">
+                </div>
+                <h2>MOHIT ANAND<br><span>Software Developer</span></h2>
+            </div>
+            <div class="contact">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text"><a href="sms:+919140455136">+919140455136</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text"><a href="mailto:praveenanand801@gmail.com">praveenanand801@gmail.com</a></span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.mywebsite.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <span class="text">www.linkedin.com/me</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Kanpur, UP, India</span>
+                    </li>
+                </ul>
+            </div>
+               
+            <div class="contact education">
+            <h3 class="title">Education</h3>
+                <ul>
+                  <li>
+                   <h5>2021-2025</h5>
+                   <h4>B.Tech from Information Technology</h4>
+                   <h4>Abdul Kalam Technical University</h4>     
+                  </li>
+                  <li>
+                    <h5>2019-2020</h5>
+                    <h4>12th passout</h4>
+                    <h4>St.Francis Xavier's Inter College</h4>     
+                   </li>
+                   <li>
+                    <h5>2017-2018</h5>
+                    <h4>10th passout</h4>
+                    <h4>St.Francis Xavier's Inter College</h4>     
+                   </li>
+                </ul>
+            </div>
+           </div>
+
+        <div class="right_side">
+            <div class="about">
+                <h2 class="title2">Profile</h2>
+                <p>My name is Mohit Anand,currently I'm persuing B.Tech in Information Technology
+                    from ABES Engineering College . I Know C++, C, Python, Kotlin, Data Structures
+                    and Algorithm and in Development I know Web Development and Android Development
+                    and I also qualified National Engineering Olympiad with AIR 403 and National 
+                    Management Olympiad with AIR 66 and I'm also worked as a two times ISP at Internshala
+                    and in the year 2018 I was awarded as a Student Of the Year award by Life Insurance 
+                    Corporaton and I love playing Cricket in my free time.
+                    </p>
+            </div>
+            <div class="about skills">
+                <h2 class="title2">Professional Skills</h2>
+                <div class="box">
+                    <h4>C</h4>
+                    <div class="percent">
+                        <div style="width:100%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>C++</h4>
+                    <div class="percent">
+                        <div style="width:100%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Python</h4>
+                    <div class="percent">
+                        <div style="width:50%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Kotlin</h4>
+                    <div class="percent">
+                        <div style="width:50%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>DSA</h4>
+                    <div class="percent">
+                        <div style="width:60%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width:80%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width:70%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Data Entry</h4>
+                    <div class="percent">
+                        <div style="width:90%;"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Graphic Designing</h4>
+                    <div class="percent">
+                        <div style="width:60%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about skills">
+                <h2 class="title2">Projects</h2>
+                <ul>
+                    <li>Face Ditection</li>
+                    <li>Motion Ditection</li>
+                </ul>
+            </div>
+            <div class="about interest">
+                <h2 class="title2">Interest</h2>
+                <ul>
+                    <li><i class="fa fa-trophy" aria-hidden="true"></i>Cricket</li>
+                    <li><i class="fa fa-microphone" aria-hidden="true"></i>Singing</li>
+                    <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+                    <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
